@@ -1,0 +1,12 @@
+div{
+    height: 250px;
+    width: 250px;
+    font-size: 13em;
+    text-align: center;
+    background-color: red;
+    animation-duration: 3s;
+    animation-name: slideright;
+}
+@keyframes slideright{
+    to{transform: translate(100px)}
+}
